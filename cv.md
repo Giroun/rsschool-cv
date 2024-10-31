@@ -7,7 +7,7 @@
 ## Contact information
 
 - **GitHub:** Giroun
-- **EMAil:** dannnyk605@gmail.com
+- **Email:** dannnyk605@gmail.com
 - **Telegram:** @dk_rrt
 
 ---
