@@ -27,6 +27,21 @@
 
 ---
 
+### Education:
+
+- Moscow State University of Civil Engineering (2021-2025)
+
+---
+
+### Languages:
+
+- English (B1)
+- Russian (native)
+
+---
+
+### Code example:
+
 ```
 function hiMessage() { alert( 'Hi there!' ); }
 ```
