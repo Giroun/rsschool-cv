@@ -1,7 +1,5 @@
 # Korzun Daniil
 
-##
-
 #### Beginer Frontend Developer
 
 ---
@@ -12,8 +10,6 @@
 - **EMAil:** dannnyk605@gmail.com
 - **Telegram:** @dk_rrt
 
-##
-
 ---
 
 ### Skills
@@ -22,8 +18,6 @@
 - JavaScript / TypeScript
 - RTK Query
 - HTML5, CSS / SCSS
-
-##
 
 ---
 
