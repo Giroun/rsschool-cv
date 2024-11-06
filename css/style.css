@@ -176,7 +176,7 @@ header {
   margin: 10px;
   background-color: #ebd6c3;
   transition: 0.2s;
-  padding: 5px;
+  padding: 30px;
 
   &:hover {
     padding-left: 100px;
