@@ -101,6 +101,11 @@ header {
   }
 }
 
+.enum {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .contactInfo {
   background-color: #ebc3d8;
   padding: 30px;
