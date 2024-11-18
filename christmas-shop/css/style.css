@@ -385,7 +385,6 @@ footer {
 .slider-container {
   margin-left: 82px;
   padding-bottom: 76px;
-  margin-right: 82px;
 }
 
 .slider-top-text {
@@ -420,6 +419,14 @@ footer {
   align-items: center;
   margin-top: 4px;
   margin-left: 1px;
+
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
 }
 
 .slider-text {
@@ -430,11 +437,17 @@ footer {
   text-transform: uppercase;
 
   color: #ffffff;
+
+  flex: none;
+  scroll-snap-align: start;
 }
 
 .slider-img {
   border-radius: 20px;
   margin: 20px;
+
+  flex: none;
+  scroll-snap-align: start;
 }
 
 .slider-button-container {
