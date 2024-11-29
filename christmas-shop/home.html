@@ -8,54 +8,60 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <a href="" class="logo">
-          <img src="./assets/logo.svg" alt="Logo"></img>
-          <div class="logo-text">THE GIFTS</div>
-        </a>
-        <div class="navigate">
-          <nav >
+      <div class="wrapper header-container">
+          <a href="home.html" class="logo">
+            <img class="snowflake"  src="./assets/logo.svg" alt="Logo"></img>
+            <div class="logo-text">THE GIFTS</div>
+          </a>
+          <nav class="navigate">
             <ul class="header-nav-links">
               <a href="gifts.html" class="nav-links">gifts</a>
               <a href="#about" class="nav-links">about</a>
               <a href="#best" class="nav-links">best</a>
               <a href="#" class="nav-links">contacts</a>
-              <button class="header-burder-button">
-                <img src="./assets/Burger.svg" alt="Burger_icon">
-              </button>
             </ul>
           </nav>
-        </div>
+          <button class="header-burder-button">
+            <img src="./assets/Burger.svg" alt="Burger_icon">
+          </button>
       </div>
     </header>
     <main>
-      <div class="container-text">
-        <div class="text">
-          <div class="merry-christmas">Merry Christmas</div>
-          <div class="gift-ys">Gift yourself the magic of new possibilities</div>
-          <div>
-            <button class="botton">Explore Magical Gifts</button>
+      <section class="hero">
+        <div class="wrapper bg">
+          <div class="hero-container">
+            <table>
+              <caption>Merry Christmas</caption>
+            </table>
+            <h1>Gift yourself the magic of new possibilities</h1>
+            <button class="button">Explore Magical Gifts</button>
+            <table>
+            <caption>and Happy New Year</caption>
+            </table>
           </div>
-          <div class="happy-ny">and Happy New Year</div>
         </div>
-      </div>
-      <div id="about" class="about">
-        <div class="about-container">
+      </section>
+      <section id="about" class=" about">
+        <div class=" wrapper about-container">
           <div class="about-text">
-            <div class="about-text-first">About</div>
-            <div class="about-text-second">Unleash your inner superhero!</div>
-            <div class="about-text-third">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</div>
+            <table>
+              <caption class="about-text-first">About</caption>
+            </table>
+            <h2 class="about-text-second">Unleash your inner superhero!</h2>
+            <p class="about-text-third">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>
           </div>
           <img class="about-img" src="./assets/about/snowman.png" alt="Snowman">
         </div>
-      </div>
-      <div class="slider">
+      </section>
+      <section class="slider wrapper">
         <div class="slider-container">
-          <div class="slider-top-text">
-            <div class="slider-top-text-first">Become Happier!</div>
-            <div class="slider-top-text-second">in the new 2025</div>
+          <div class="slider-top-container">
+            <table class="slider-top-text-first">
+            <caption class="slider-top-text-first">Become Happier!</caption>
+            </table>
+            <h2 class="slider-top-text-second">in the new 2025</h2>
           </div>
-          <div class="slider-slider">
+          <div class="slider-row-container">
             <div class="slider-text">live</div>
             <img class="slider-img" src="./assets/slider/snowman.png" alt="Snowman">
             <div class="slider-text">create</div>
@@ -78,67 +84,70 @@
             </button>
           </div>
         </div>
-      </div>
-      <div id="best" class="best-gifts">
+      </section>
+      <div id="best" class="best-gifts wrapper">
         <div class="best-gifts-container">
           <div class="best-gifts-caption">
-            <div class="best-gifts-caption-caption">Best Gifts</div>
-            <div class="best-gifts-caption-header">especially for you</div>
+            <table>
+            <caption class="best-gifts-caption-caption">Best Gifts</caption>
+            </table>
+            <h2 class="best-gifts-caption-header">especially for you</h2>
           </div>
           <div class="best-gifts-container-card">
             <div class="gift-card">
               <img class="card-img" src="./assets/card/card-for-work.png" alt="card-for-helth">
-              <div>
-                <div class="card-header-work">For work</div>
-                <div class="card-name">Console.log Guru</div>
+              <div class="card-text-container">
+                <h4 class="card-header-work">For work</h4>
+                <h3 class="card-name">Console.log Guru</h3>
               </div>
             </div>
             <div class="gift-card">
               <img class="card-img" src="./assets/card/card-for-helth.png" alt="card-for-helth">
-              <div>
-                <div class="card-header-health">For health</div>
-                <div class="card-name">Hydration Bot</div>
+              <div class="card-text-container">
+                <h4 class="card-header-health">For health</h4>
+                <h3 class="card-name">Hydration Bot</h3>
               </div>
             </div>
             <div class="gift-card">
               <img class="card-img" src="./assets/card/card-for-work.png" alt="card-for-helth">
-              <div>
-                <div class="card-header-work">For work</div>
-                <div class="card-name">Merge Master</div>
+              <div class="card-text-container">
+                <h4 class="card-header-work">For work</h4>
+                <h3 class="card-name">Merge Master</h3>
               </div>
             </div>
             <div class="gift-card">
               <img class="card-img" src="./assets/card/card-for-harmony.png" alt="card-for-helth">
-              <div>
-                <div class="card-header-harmony">For harmony</div>
-                <div class="card-name">Spontaneous Coding Philosopher</div>
+              <div class="card-text-container">
+                <h4 class="card-header-harmony">For harmony</h4>
+                <h3 class="card-name">Spontaneous Coding Philosopher</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="cta">
-        <div class="cta-container">
-          <div class="cta-text-ready">Ready to start your journey to a better version of yourself?</div>
-          <button class="botton">Explore Magical Gifts</button>
-          <div class="cta-text-ny">The New Year is Coming Soon...</div>
+        <div class=" cta cta-container wrapper">
+          <h2 class="cta-text-ready">Ready to start your journey to a better version of yourself?</h2>
+          <button class="button">Explore Magical Gifts</button>
+          <table>
+          <caption class="cta-text-ny">The New Year is Coming Soon...</caption>
+          </table>
           <div class="cta-timer"> 
             <div class="countdown">
               <div class="countdown-item">
-                <span class="label" id="days">00</span>
-                <span class="label">days</span>
+                <h2 class="label" id="days">00</h2>
+                <h4 class="label">days</h4>
               </div>
               <div class="countdown-item">
-                <span class="label" id="hours">00</span>
-                <span class="label">hours</span>
+                <h2 class="label" id="hours">00</span>
+                <h4 class="label">hours</h4>
               </div>
               <div class="countdown-item">
-                <span class="label" id="minutes">00</span>
-                <span class="label">minutes</span>
+                <h2 class="label" id="minutes">00</h2>
+                <h4 class="label">minutes</h4>
               </div>
               <div class="countdown-item">
-                <span class="label" id="seconds">00</span>
-                <span class="label">seconds</span>
+                <h2 class="label" id="seconds">00</h2>
+                <h4 class="label">seconds</h4>
               </div>
             </div>
           </div>
@@ -146,7 +155,7 @@
       </div>
     </main>
     <footer>
-    <div class="footer-container">
+    <div class="footer-container wrapper">
       <div class="footer-top">
         <a href="tel:+375-29-111-22-33" class="footer-buttons">
           <img class="footer-buttons-img" src="./assets/footer/santa.svg" alt="Santa">
